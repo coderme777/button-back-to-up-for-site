@@ -1,0 +1,31 @@
+
+h1 {
+  text-align: center;
+}
+
+.base {
+  width: 500px;
+  margin: auto;
+  text-align: justify;
+}
+/*begin style the button  */
+.down_to_up {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: linear-gradient(180deg, #B58243 0%, #AC742F 100%);
+  cursor: pointer;
+
+  display: none;
+}
+.down_to_up img{
+  margin-top: 8px;
+}    
+.up_show {
+  display: block;
+}
+/* end style the button  */
